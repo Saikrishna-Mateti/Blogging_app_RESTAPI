@@ -1,0 +1,31 @@
+
+POST http://localhost:3000/blogging/posts 
+Content-Type: application/json
+
+# {
+#   "userName": "luffy_3",
+#   "title": "Rubber Man",
+#   "content": "This is the content of my first blog post."
+# }
+
+{
+    "userName": "ace_7",
+    "title": "Fire Man",
+    "content": "This is the content of my first blog post."
+}
+
+# {
+#     "userName": "sabo_9",
+#     "title": "Army",
+#     "content": "This is the content of my first blog post."
+# }
+
+###
+GET http://localhost:3000/blogging/posts
+###
+
+GET http://localhost:3000/blogging/posts/user/ace_7
+
+###
+
+DELETE http://localhost:3000/blogging/posts/65de9be2b0c16a37bdd6b3be
